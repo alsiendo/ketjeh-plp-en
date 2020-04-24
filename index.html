@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ketjeh Drink</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js"></script>
+    <!-- !ICON LIBRARY -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- ! UserStory #1 -->
+    <header id="header">
+      <!-- ! UserStory #3 -->
+      <nav id="nav-bar">
+        <div id="logo">
+          <!-- ! UserStory #2 -->
+          <img
+            id="header-img"
+            src="images/logo/logo_transparent.png"
+            alt="Ketjeh logo"
+          />
+        </div>
+        <div class="hamburger">
+          <label id="toggle" onclick="toggleFunction()">&#9776;</label>
+        </div>
+        <div id="hamburgerItems">
+          <ul>
+            <!-- ! UserStory #4 -->
+            <li><a href="#footer" class="nav-link">Home</a></li>
+            <li><a href="#footer" class="nav-link">Open Menu</a></li>
+            <li><a href="#footer" class="nav-link">Find Us</a></li>
+            <li><a href="#footer" class="nav-link">Order Now</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="space-nav"></div>
+      <div class="jumbotron">
+        <div class="jumbo-img">
+          <img src="images/ketjeh.jpeg" alt="Ketjeh Header" />
+        </div>
+        <div class="shadow-text">
+          <h1 id="shadow">Minuman Kekinian.</h1>
+        </div>
+        <div class="text-jumbo">
+          <h1 id="title">Minuman Kekinian.</h1>
+          <p id="description">Minuman milenial yang pastinya seger banget.</p>
+          <p>YUK SEGERA ORDER</p>
+        </div>
+        <div class="promo">
+          <p>Diskon 10%</p>
+        </div>
+      </div>
+    </header>
+    <div class="content">
+      <section class="boxes extrasize">
+        <figure class="content-flex">
+          <div class="img content-1">
+            <img src="images/pinky.jpeg" alt="Ketjeh Pinky Ntaps" />
+          </div>
+          <div class="content-text content-2">
+            <h1 class="title-box">Ketjeh Pinky Ntaps</h1>
+            <figcaption>
+              Bubble kenyal yang bikin nagih dicampur dengan rasa stroberi yang
+              nikmat. Beli sekarang dan jadilah milenial sejati.
+            </figcaption>
+          </div>
+        </figure>
+        <button class="btn-content" id="order">Order</button>
+      </section>
+      <section class="boxes extrasize-2">
+        <figure class="content-flex">
+          <div class="img content-3">
+            <img src="images/piscok.jpeg" alt="Golden Piscok" />
+          </div>
+          <div class="content-text content-4">
+            <h1 class="title-box white-text">Golden Piscok</h1>
+            <figcaption class="white-text">
+              Selain minuman yang enak banget, buat nemenin kamu ada juga
+              snack-snack yang bisa kamu order loh !
+            </figcaption>
+          </div>
+        </figure>
+        <button class="btn-content" id="menu">Buka Menu</button>
+      </section>
+    </div>
+    <div class="form">
+      <!-- ! UserStory #7 #12 -->
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <h1>JADILAH MEMBER UNTUK DAPAT DISKON LEBIH</h1>
+        <!-- ! UserStory #8 #9 #10 #11-->
+        <input
+          id="email"
+          type="email"
+          placeholder="Ketikkan alamat emailmu"
+          name="email"
+        />
+        <input id="submit" type="submit" placeholder="submit" />
+      </form>
+    </div>
+    <footer id="footer">
+      <div class="foot-items">
+        <!-- ! UserStory #6 -->
+        <iframe
+          width="112"
+          height="63"
+          src="https://www.youtube.com/embed/PiwOtTJAgvw"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          id="video"
+        ></iframe>
+      </div>
+      <div class="foot-items">
+        <h2>Follow us</h2>
+        <hr />
+        <div class="icon">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </div>
+      </div>
+      <div class="foot-items">
+        <h2>Location</h2>
+        <hr />
+        <p>
+          Depan POM Bensin,<br />
+          Lorok - Pacitan, <br />
+          Jawa Timur (63572)
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
