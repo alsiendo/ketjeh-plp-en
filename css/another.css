@@ -1,0 +1,440 @@
+/*  ! GENERAL */
+/* Alternative 
+helvetica := work, sans font-family: 'Work Sans', sans-serif;
+neuzeit : Hind  font-family: 'Hind', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Hind&family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hind", sans-serif;
+  left: 0;
+  right: 0;
+  color: #333333;
+  background-color: rgb(245, 245, 245);
+  min-width: 141px;
+  /* background-color: teal; */
+  height: 2370px;
+  z-index: 0;
+  overflow-x: hidden;
+}
+
+#space-nav {
+  height: 80px;
+}
+
+/* ! END-GENERAL */
+/* ! NAVIGATION */
+
+#nav-bar {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(245, 245, 245);
+  border-bottom: 1px solid rgb(77, 77, 77);
+  z-index: 1;
+}
+
+#hamburger {
+  position: fixed;
+  right: 10px;
+}
+
+#hamburgerItems {
+  position: fixed;
+  top: 80px;
+  width: 100%;
+  text-align: center;
+  display: block;
+  background-color: rgba(63, 63, 63, 0.87);
+  display: none;
+}
+
+#hamburgerItems ul li {
+  padding: 7px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.637);
+}
+
+#hamburgerItems ul li a {
+  color: #e4e4e4;
+}
+
+#hamburgerItems ul li a:hover {
+  color: white;
+}
+
+label {
+  cursor: pointer;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+#logo {
+  position: fixed;
+  width: 100%;
+}
+
+#header-img {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* ! END-NAVIGATION */
+/* !JUMBOTRON */
+
+.jumbotron {
+  position: relative;
+  height: 250px;
+  text-align: center;
+  color: white;
+}
+
+.jumbo-img img {
+  position: relative;
+  height: 250px;
+  right: 9%;
+}
+
+.text-jumbo {
+  position: absolute;
+  top: 55%;
+  left: 8%;
+}
+
+.text-jumbo #title {
+  font-size: 36px;
+  letter-spacing: 7px;
+}
+
+.text-jumbo p {
+  position: relative;
+  bottom: 12px;
+  font-size: 22px;
+}
+
+.text-jumbo #description {
+  font-size: 18px;
+  bottom: 3px;
+}
+
+.shadow-text #shadow {
+  position: absolute;
+  color: #3f6a84;
+  font-size: 36px;
+  letter-spacing: 7px;
+  top: 56.5%;
+  left: 8.2%;
+}
+
+/* ! END-JUMBOTRON */
+/* ! CONTENT */
+
+.content {
+  position: relative;
+  text-align: center;
+  line-height: 22px;
+}
+
+.boxes {
+  margin: 30px 70px;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  height: 500px;
+}
+
+.extrasize {
+  height: 600px;
+}
+
+figcaption {
+  width: 85%;
+  padding: 18px;
+  margin: auto;
+}
+
+.boxes .btn-content {
+  position: relative;
+  font-size: 16px;
+  padding: 5px 25px;
+  border-radius: 25px;
+  border-style: solid;
+  color: white;
+}
+
+.boxes #order {
+  background-color: #78bbe5;
+}
+
+.boxes #menu {
+  background-color: #cd2353;
+}
+
+figure .img {
+  width: 300px;
+}
+
+figure img {
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  height: auto;
+}
+
+/* ! END-CONTENT */
+/* ! FORM */
+.form {
+  width: 100%;
+  height: 200px;
+  background-color: #9ddbac;
+  margin: 45px 0 20px 0px;
+  text-align: center;
+}
+
+form h1 {
+  padding-top: 65px;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+form input[type="email"] {
+  width: 50%;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+  border-style: none;
+  padding-left: 5px;
+}
+
+form input[type="submit"] {
+  height: 30px;
+  width: 90px;
+  background-color: #6fbd82;
+  border-style: none;
+}
+
+/* ! END-FORM */
+/* ! FOOTER */
+footer {
+  height: 580px;
+  background-color: #c5b9b9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  height: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 10px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+footer .foot-items {
+  width: 300px;
+  height: 150px;
+  text-align: center;
+}
+
+.foot-items p {
+  margin-top: 20px;
+}
+
+iframe {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+hr {
+  border: 1.2px solid 333333;
+}
+/* ! END-FOOTER */
+
+@media only screen and (min-width: 900px) {
+  .jumbotron {
+    height: 650px;
+    background-color: blueviolet;
+  }
+
+  .jumbo-img {
+    height: 650px;
+  }
+
+  .jumbo-img img {
+    height: 660px;
+    right: 0;
+  }
+
+  .text-jumbo #title {
+    font-size: 70px;
+  }
+
+  .text-jumbo {
+    left: 420px;
+    top: 420px;
+  }
+
+  .text-jumbo #description {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+
+  .shadow-text #shadow {
+    font-size: 70px;
+    top: 422px;
+    left: 425px;
+  }
+
+  form h1 {
+    font-size: 30px;
+    padding-top: 45px;
+  }
+
+  form input[type="email"] {
+    width: 30%;
+    height: 40px;
+    padding-left: 10px;
+  }
+
+  form input[type="submit"] {
+    width: 120px;
+    height: 40px;
+  }
+
+  footer {
+    flex-flow: row;
+    height: 230px;
+    align-items: center;
+    font-size: 120%;
+  }
+
+  .content-flex {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+
+  figure .img {
+    width: 320px;
+  }
+
+  figure img {
+    padding: 0;
+    margin: 0;
+  }
+
+  .boxes {
+    margin: 0;
+    border: none;
+  }
+
+  .content-1 {
+    order: 2;
+    position: relative;
+    top: 7px;
+  }
+
+  .content-2 {
+    order: 1;
+    width: 1200px;
+  }
+
+  .content-3 {
+    padding: 50px 0;
+    background-color: #333333;
+  }
+
+  .content-4 {
+    width: 1200px;
+    background-color: #333333;
+  }
+  .content-text .title-box {
+    font-size: 50px;
+    position: relative;
+    top: 80px;
+  }
+
+  figcaption {
+    font-size: 25px;
+    position: relative;
+    top: 90px;
+    width: 680px;
+    padding: 40px;
+    line-height: 30px;
+  }
+
+  button {
+    position: absolute;
+    width: 250px;
+    height: 60px;
+  }
+
+  .extrasize {
+    height: 407px;
+  }
+
+  .extrasize-2 {
+    height: 400px;
+  }
+
+  #order {
+    bottom: 120px;
+    right: 150px;
+    border-radius: 100px;
+  }
+  #menu {
+    bottom: 165px;
+    left: 150px;
+  }
+
+  .white-text {
+    color: white;
+  }
+
+  body {
+    height: auto;
+  }
+}
